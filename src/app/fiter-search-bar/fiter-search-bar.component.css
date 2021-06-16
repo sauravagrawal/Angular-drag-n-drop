@@ -1,0 +1,52 @@
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    font-size: 18px;
+}
+.material-icons{
+    font-size: 18px;
+}
+.wrapper {
+    position: relative;
+    display: flex;
+    width: 77vw;
+    min-width: 100px;
+  }
+  
+  .search {
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    padding: 2px 23px 2px 40px;
+    outline: 0;
+    background-color: #F4F9FC;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    width: 18px;
+  }
+  
+  .clear-icon {
+    position: absolute;
+    top: 9px;
+    right: 8px;
+    width: 12px;
+    cursor: pointer;
+    visibility: hidden;
+  }
+  
+  .search:hover, .search:focus {
+    border: none;
+    background-color:#F4F9FC;
+  }
+  .navbar{
+      padding: 10px 0px !important;
+  }
+  .dropdown-toggle::after {
+    margin-left: 0em;
+    vertical-align: 0em;
+    margin-right: 10px;
+}

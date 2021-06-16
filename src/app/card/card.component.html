@@ -1,0 +1,54 @@
+<div class="pop" cdkDrag *ngFor="let item of cardlit">
+    <div class="cardsingle">
+      <div class="row">
+        <div class="col-md-7 col-sm-7 col-xs-7">
+          <div class="idnumber">#{{ item.orderId }}</div>
+          <div class="status">{{ item.paymentStatus }}</div>
+          <br clear="all" />
+          <div class="tagstatus">
+            <ul>
+              <li class="purple">{{ item.tags[0] }}</li>
+              <li class="orange">{{ item.tags[1] }}</li>
+            </ul>
+          </div>
+  
+          <div class="modelno">
+            <span class="material-icons">directions_car</span> {{ item.modelNo }}
+          </div>
+          <div class="username">
+            <span class="material-icons">person_outline</span> {{ item.userName }}
+          </div>
+        </div>
+        <div class="col-md-5 col-sm-5 col-xs-5">
+          <div class="repairorder">
+            <span class="material-icons">local_offer</span
+            ><a href="javascript:;">{{ item.repairOrder }}</a>
+          </div>
+          <div class="invoice">
+            <span class="material-icons">local_offer</span
+            ><a href="javascript:;">{{ item.invoice }}</a>
+          </div>
+          <div class="watsapp">
+            <a href="javascript:;"
+              ><img src="../../assets/images/watsapp_logo.png" />
+              {{ item.watsApp }}</a
+            >
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="carddetail">
+        <ul>
+          <li><small>Invoice</small>{{ item.invoiceNo }}</li>
+          <li><small>Created By</small>{{ item.createdBy }}</li>
+          <li><small>Completion Date</small>{{ item.completionDate }}</li>
+        </ul>
+      </div>
+      <hr />
+      <div class="total"><small>Total:</small>{{ item.totalAmt }}</div>
+      <div class="amountdue"><small>Amount Due</small>{{ item.amtDue }}</div>
+      <br clear="all" />
+      <div></div>
+    </div>
+  </div>
+  

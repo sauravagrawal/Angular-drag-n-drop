@@ -1,0 +1,144 @@
+.cardsingle{
+    background: #fff;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0,0,0,.1);
+}
+.idnumber{
+    color: green;
+    font-size: 20px;
+    font-weight: 700;
+    float: left;
+}
+.status{
+    float: right;
+    background: red;
+    color: white;
+    font-size: 10px;
+    padding: 2px 10px;
+    border-radius:5px;
+    margin-top: 7px;
+}
+.tagstatus{
+    min-height: 20px;
+}
+
+.tagstatus ul{
+    padding: 0px;
+}
+.tagstatus ul li{
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 2px 10px;
+}
+.tagstatus ul li.purple{
+    font-size: 8px;
+    border: 1px solid #BD03D9;
+    color: #BD03D9;
+}
+.tagstatus ul li.orange{
+    font-size: 8px;
+    border: 1px solid #FFC900;
+    color: #FFC900;
+}
+.modelno{
+    color: rgb(99, 99, 99);
+    font-size: 14px;
+    margin-top: 10px;
+}
+.modelno .material-icons{
+    font-size: 14px;
+}
+.username{
+    color: rgb(99, 99, 99);
+    font-size: 14px;
+}
+.username .material-icons{
+    font-size: 14px;
+}
+.repairorder{
+    color: rgb(99, 99, 99);
+    font-size: 12px;
+}
+.repairorder .material-icons{
+    font-size: 12px;
+    margin-right: 5px;
+}
+.repairorder a{
+    color: rgb(99, 99, 99);
+    text-decoration: underline;
+}
+.invoice{
+    color: rgb(99, 99, 99);
+    font-size: 12px;
+}
+.invoice .material-icons{
+    font-size: 12px;
+    margin-right: 5px;
+}
+.invoice a{
+    color: rgb(99, 99, 99);
+    text-decoration: underline;
+}
+.watsapp{
+    color: #13990A;
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 14px;
+}
+.watsapp a{
+    color: #13990A;
+    text-decoration: none;
+}
+.watsapp img{
+    width: 14px;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+.cardsingle hr{
+    margin: 10px -10px;
+}
+.carddetail ul{
+padding: 0px;
+}
+.carddetail ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.carddetail ul li small{
+    display: block;
+    font-size: 8px;
+    color: rgb(99, 99, 99);
+    text-transform: uppercase;
+    
+}
+.total{
+float: left;
+font-size: 14px;
+color:black;
+font-weight: bold;
+}
+.total small{
+    display: block;
+    font-size: 10px;
+    color: rgb(99, 99, 99);
+    text-transform: uppercase;
+}
+.amountdue{
+    float: right;
+font-size: 20px;
+color:red;
+font-weight: bold;
+    }
+    .amountdue small{
+        display: block;
+        font-size: 8px;
+        line-height: 10px;
+        color: rgb(99, 99, 99);
+        text-transform: uppercase;
+    }

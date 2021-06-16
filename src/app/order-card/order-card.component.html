@@ -1,0 +1,60 @@
+<div class="row">
+    <div class="col-md-3">
+        <h5>Open</h5>
+        <div class="cardb">   
+        <div
+          cdkDropList
+          [cdkDropListData]="list1"
+          [cdkDropListConnectedTo]="secondList"
+          #firstList="cdkDropList"
+          (cdkDropListDropped)="drop($event)"
+        >
+          <div *ngFor="let item of list1" class="pop" cdkDrag>
+            <app-card></app-card></div>
+        </div>
+        </div>
+      </div>
+    <div class="col-md-3">
+        
+        <h5>WIP</h5>
+        <div class="cardb">
+        <div
+          cdkDropList
+          [cdkDropListData]="list2"
+          [cdkDropListConnectedTo]="thirdList"
+          #secondList="cdkDropList"
+          (cdkDropListDropped)="drop($event)"
+        >
+          <div *ngFor="let item of list2" class="pop" cdkDrag> <app-card></app-card> </div>
+        </div>
+        </div>
+      </div>
+  <div class="col-md-3">
+    <h5>Ready</h5>
+    <div class="cardb">
+    <div
+      cdkDropList
+      [cdkDropListData]="list3"
+      [cdkDropListConnectedTo]="fourthList"
+      #thirdList="cdkDropList"
+      (cdkDropListDropped)="drop($event)"
+    >
+      <div *ngFor="let item of list3" class="pop" cdkDrag> <app-card></app-card>  </div>
+    </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <h5>Payment Due</h5>
+    <div class="cardb">
+    <div
+      cdkDropList
+      [cdkDropListData]="list4"
+      [cdkDropListConnectedTo]="fourthList"
+      #fourthList="cdkDropList"
+      (cdkDropListDropped)="drop($event)"
+    >
+      <div *ngFor="let item of list4" class="pop" cdkDrag> <app-card></app-card> </div>
+    </div>
+    </div>
+  </div>
+</div>
